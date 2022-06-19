@@ -13,7 +13,7 @@ const db = mysql.createConnection({
 
 //welcome rounter
 router.get('/',(req,res)=>{
-    res.send('welcome to scb test')
+    res.send('welcome to scb test!!')
 });
 
 
